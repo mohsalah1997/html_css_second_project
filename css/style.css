@@ -1,0 +1,142 @@
+a {
+  text-decoration: none;
+}
+
+.topbar {
+  background-color: #252323;
+}
+.fa-warehouse {
+  color: #00bac6;
+}
+
+.topbar .nav-link {
+  color: white;
+}
+
+.top-nav .nav-link {
+  color: #8b8b8b;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.form-inline,
+.search {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.top-nav .nav-link.active,
+.top-nav .nav-link:hover {
+  color: #00bac6;
+}
+.top-nav .nav-link.active {
+  border-bottom: 2px solid #00bac6;
+}
+
+.header .form-control {
+  color: #d6d6d6;
+  border-radius: 0%;
+}
+
+#filtersubmit {
+  position: relative;
+  z-index: 1;
+  left: -25px;
+  top: 1px;
+  color: #7b7b7b;
+  cursor: pointer;
+  width: 0;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #818181;
+}
+
+.searchTerm {
+  border: 3px solid #00b4cc;
+  border-right: none;
+  padding: 5px;
+
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9dbfaf;
+}
+
+.searchTerm:focus {
+  color: #00b4cc;
+}
+
+.searchButton {
+  border: 1px solid #00b4cc;
+  background: #00b4cc;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+
+.carousel-inner img {
+  height: 70vh;
+}
+#slider .carousel-caption {
+  top: 30%;
+  bottom: 30%;
+}
+
+#slider .carousel-indicators li {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: transparent;
+  border: 5px solid white;
+}
+#slider .carousel-indicators li.active {
+  background: #00b4cc;
+}
+
+.services .row .active .large__icon {
+  color: #00b4cc;
+  margin-top: 3rem;
+}
+
+.services-items {
+  background-color: #eee;
+  position: relative;
+  margin-top: 5rem;
+}
+
+.image__fit {
+  max-height: 185px;
+  width: 100%;
+  overflow: hidden;
+}
+.image__fit img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.service__item__border {
+  border: 1px solid #c5c5c5;
+}
+.service__item {
+  padding-bottom: 30px;
+}
+
+.services-items::before {
+  content: "";
+  position: absolute;
+  top: -100px;
+  left: 50%;
+  height: 50px;
+  width: 80px;
+  margin-left: -40px;
+  background: transparent;
+  border: 50px solid transparent;
+  border-bottom-color: #eee;
+}
